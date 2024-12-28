@@ -11,7 +11,7 @@ export default function Responsive() {
     {
       id: 1, // Add a unique identifier
       href: '/nuggets',
-      imgSrc: '/images/nuggets.jpg',
+      imgSrc: '/images/Nuggets.jpg',
       alt: 'Chicken Nuggets',
       title: 'Chicken Nuggets',
       description: 'Juicy, big, loaded with toppings of my choice.'
