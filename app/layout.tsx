@@ -17,7 +17,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <html lang="en">
       <head>
         {/* Add Font Awesome Kit script here */}
-        <script src="https://kit.fontawesome.com/145d2a49f0.js" crossOrigin="anonymous"></script>
+        <script async src="https://kit.fontawesome.com/145d2a49f0.js" crossOrigin="anonymous"></script>
       </head>
       <body>
         {children}
