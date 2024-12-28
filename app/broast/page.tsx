@@ -11,7 +11,7 @@ export default function Responsive() {
     {
       id: 1,
       href: "/broast",
-      imgSrc: "/images/Broast.jpg",  // Make sure this path is correct
+      imgSrc: "/images/broast.jfif",  // Make sure this path is correct
       alt: "Chicken Broast",
       title: "Chicken Broast",
       description: "Juicy, big, loaded with toppings of my choice.",
