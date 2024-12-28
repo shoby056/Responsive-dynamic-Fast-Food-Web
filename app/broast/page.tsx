@@ -9,9 +9,9 @@ export default function Responsive() {
 
   const foodItems = [
     {
-      id:1,
+      id: 1,
       href: "/broast",
-      imgSrc: "/images/Broast.jpg",
+      imgSrc: "/images/Broast.jpg",  // Make sure this path is correct
       alt: "Chicken Broast",
       title: "Chicken Broast",
       description: "Juicy, big, loaded with toppings of my choice.",
@@ -31,8 +31,10 @@ export default function Responsive() {
   return (
     <div>
       <Header />
-      <h1 className="text-center font-sans font-bold text-2xl  mt-[7%] text-black bg-gray-100 py-5">Shoby's Fast Food</h1>
-      <div className="flex flex-wrap justify-center bg-gray-100 ">
+      <h1 className="text-center font-sans font-bold text-2xl mt-[7%] text-black bg-gray-100 py-5">
+        Shoby's Fast Food
+      </h1>
+      <div className="flex flex-wrap justify-center bg-gray-100">
         {foodItems.map((item) => (
           <div
             key={item.id} // Assign a unique key
@@ -43,6 +45,7 @@ export default function Responsive() {
               alt={item.alt}
               width={230}
               height={230}
+              layout="intrinsic"  // Added layout="intrinsic" for better responsiveness
               className="w-full h-36 bg-gray-500 rounded-lg"
             />
             <h1 className="text-lg font-bold mt-2">{item.title}</h1>
@@ -58,7 +61,7 @@ export default function Responsive() {
       </div>
       <p className="bg-gray-100 text-lg text-center p-5 rounded-lg">
         A Club Sandwich is a patty of ground beef grilled and placed between two halves of a bun.
-        <br /> Burgers are considered an American food but are popular around the world
+        <br /> Burgers are considered an American food but are popular around the world.
         <br /> Slices of raw onion, lettuce, bacon, mayonnaise, and other ingredients add flavor.
       </p>
 
