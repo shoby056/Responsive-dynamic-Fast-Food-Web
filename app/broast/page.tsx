@@ -11,7 +11,7 @@ export default function Responsive() {
     {
       id:1,
       href: "/broast",
-      imgSrc: "/images/broast.jpg",
+      imgSrc: "/images/Broast.jpg",
       alt: "Chicken Broast",
       title: "Chicken Broast",
       description: "Juicy, big, loaded with toppings of my choice.",
